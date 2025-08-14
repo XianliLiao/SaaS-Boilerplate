@@ -1,3 +1,42 @@
+# 1.0.0 (2025-08-14)
+
+
+### Bug Fixes
+
+* add demo banner at the top of the landing page ([f86da6f](https://github.com/XianliLiao/SaaS-Boilerplate/commit/f86da6f759665abcaa3f2f0ac9152047f1c54c01))
+* chnage dashboard index message button in french translation ([d654619](https://github.com/XianliLiao/SaaS-Boilerplate/commit/d65461955d8a0971515b740a54da705d0cf992b6))
+* clerk integration ([b6f7fe4](https://github.com/XianliLiao/SaaS-Boilerplate/commit/b6f7fe40c9758e7cd0d5e35536bd1243f30c8c9c))
+* hide text in logo used in dashboard and add spacing for sign in button used in navbar ([ab67083](https://github.com/XianliLiao/SaaS-Boilerplate/commit/ab67083294dc3490b8c7edd596290b438fab2f66))
+* in dashboard, make the logo smaller, display without text ([ec37a86](https://github.com/XianliLiao/SaaS-Boilerplate/commit/ec37a8671a044dd69c12a301bd3356f845f288d7))
+* issue to build Next.js with Node.js 22.7, use 22.6 instead ([27c6db3](https://github.com/XianliLiao/SaaS-Boilerplate/commit/27c6db312f74cb0ee0918b31a9b2a38e34732ebf))
+* redirect user to the landing page after signing out ([3652b8b](https://github.com/XianliLiao/SaaS-Boilerplate/commit/3652b8b73e865996bafa5be51b25213eacdfe7d4))
+* remove custom framework configuration for i18n-ally vscode ([3307d66](https://github.com/XianliLiao/SaaS-Boilerplate/commit/3307d66f1c9f68fda00b64f5f5214229ead7ad81))
+* remove hydration error and unify with pro version 1.6.1 ([abc9828](https://github.com/XianliLiao/SaaS-Boilerplate/commit/abc982806f98477c99dfbd3083ea11a2d5ed77a4))
+* remove update deps github workflow, add separator in dashboard header ([ef2afe6](https://github.com/XianliLiao/SaaS-Boilerplate/commit/ef2afe62f6a0aa5f3e34b6618611fde74d46cd9d))
+* update clerk to the latest version and update middlware to use await with auth ([89ab527](https://github.com/XianliLiao/SaaS-Boilerplate/commit/89ab5275df7f0baaf380ecd10323685342fb226f))
+* update logicalId in checkly configuration ([4cc04b0](https://github.com/XianliLiao/SaaS-Boilerplate/commit/4cc04b001a1536bba151b34b57e18924ff9ce0d1))
+* use new vitest vscode setting for preventing automatic opening of the test results ([7de5e7d](https://github.com/XianliLiao/SaaS-Boilerplate/commit/7de5e7d42ba69373d9911bca275cf48dae0bb168))
+
+
+### Features
+
+* add custom framework for i18n-ally and replace deprecated Jest VSCode configuration ([07d696c](https://github.com/XianliLiao/SaaS-Boilerplate/commit/07d696cbf5767777ec590a03c9a5434f5a461c18))
+* add link to the GitHub repository ([6595246](https://github.com/XianliLiao/SaaS-Boilerplate/commit/65952460ce075740760a31e40058d99a14cb2303))
+* create dashboard header component ([6fc8d14](https://github.com/XianliLiao/SaaS-Boilerplate/commit/6fc8d14f8c58e1938371d7a0a45eba9bd1e824af))
+* don't redirect to organization-selection if the user is already on this page ([4f09d00](https://github.com/XianliLiao/SaaS-Boilerplate/commit/4f09d0084c5b5dca822a26597c3f3d114b37ae5d))
+* initial commit ([685dd1c](https://github.com/XianliLiao/SaaS-Boilerplate/commit/685dd1c9c21f780244030291dbd8f6a26d8c5389))
+* launching SaaS boilerplate for helping developers to build SaaS quickly ([6a60eaa](https://github.com/XianliLiao/SaaS-Boilerplate/commit/6a60eaaee2ea8cb4e6361de33ff9f5a23d6bf288))
+* make the landing page responsive and works on mobile ([cf58936](https://github.com/XianliLiao/SaaS-Boilerplate/commit/cf589364ee4d15509f1ec6b77503f9f51cf81843))
+* make user dashboard responsive ([276d3bf](https://github.com/XianliLiao/SaaS-Boilerplate/commit/276d3bf40d7e56f673ccaf34b28fd82b3ec5a0c9))
+* migreate Env.mjs file to Env.ts ([6a37c38](https://github.com/XianliLiao/SaaS-Boilerplate/commit/6a37c38267dfd06ef1fb24c42298cb0c4611df4c))
+* remove next-sitemap and use the native Next.js sitemap/robots.txt ([1e737ff](https://github.com/XianliLiao/SaaS-Boilerplate/commit/1e737ffffb42e5fcc75f5479ce87aa35a26042d7))
+* update de Next.js Boilerplate v3.58.1 ([f2a72fc](https://github.com/XianliLiao/SaaS-Boilerplate/commit/f2a72fc66fe8e1a75da92859f11f4cbb451d0af2))
+* update to Drizzle Kit 0.22, Storybook 8, migrate to vitest ([326f35c](https://github.com/XianliLiao/SaaS-Boilerplate/commit/326f35cb2a05e9c6fac24b1970a25fb2c162034e))
+* update to Next.js Boilerpalte v3.54 ([3cb113b](https://github.com/XianliLiao/SaaS-Boilerplate/commit/3cb113bb2b0691fb058bcb93dcf03df4cdd01088))
+* upgrade to Clerk v5 and use Clerk's Core 2 ([cedf900](https://github.com/XianliLiao/SaaS-Boilerplate/commit/cedf90021e0f2af020e4502c088f3a547eee0ae9))
+* use Node.js version 20 and 22 in GitHub Actions ([599e876](https://github.com/XianliLiao/SaaS-Boilerplate/commit/599e876f4f26552f28eac4e8488e9b206ad623ab))
+* vscode jest open test result view on test fails and add unauthenticatedUrl in clerk middleware ([bce7643](https://github.com/XianliLiao/SaaS-Boilerplate/commit/bce7643111338330c844028ca63009ef85e20c98))
+
 ## [1.7.6](https://github.com/ixartz/SaaS-Boilerplate/compare/v1.7.5...v1.7.6) (2025-05-01)
 
 
